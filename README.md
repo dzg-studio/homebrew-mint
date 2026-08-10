@@ -5,9 +5,10 @@ Mint is a native, on-device Mac cleanup and file organizer from DZG Studio LLC.
 ## Install
 
 ```bash
-brew tap yg1112/mint
-brew install --cask mint
+brew install --cask yg1112/mint/mint
 ```
+
+The fully qualified name tells Homebrew 6+ to trust only this cask, rather than every current and future item in the third-party tap.
 
 The cask installs `Mint.app` and links the bundled read-only/MCP-capable command-line tool as `mint-cli`.
 
