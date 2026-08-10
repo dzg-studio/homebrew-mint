@@ -5,7 +5,7 @@ Mint is a native, on-device Mac cleanup and file organizer from DZG Studio LLC.
 ## Install
 
 ```bash
-brew install --cask yg1112/mint/mint
+brew install --cask dzg-studio/mint/mint
 ```
 
 The fully qualified name tells Homebrew 6+ to trust only this cask, rather than every current and future item in the third-party tap.
@@ -16,7 +16,7 @@ Mint requires macOS 14 Sonoma or later. The app is signed with a Developer ID ce
 
 - Website: https://mint.dzgapp.com
 - Documentation: https://mint.dzgapp.com/docs
-- Releases: https://github.com/yg1112/mint-releases/releases
+- Releases: https://github.com/dzg-studio/mint-releases/releases
 
 ## Updating the cask
 
@@ -29,7 +29,7 @@ For every Mint release:
 
 ```bash
 curl -L --fail --silent --show-error \
-  "https://github.com/yg1112/mint-releases/releases/download/vVERSION/Mint-VERSION-macOS.dmg" \
+  "https://github.com/dzg-studio/mint-releases/releases/download/vVERSION/Mint-VERSION-macOS.dmg" \
   | shasum -a 256
 ```
 

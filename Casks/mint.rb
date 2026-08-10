@@ -2,8 +2,8 @@ cask "mint" do
   version "1.0.10"
   sha256 "c08eb264db9ba02c9743685d33a5f028248d16dbe51c61dee962851bdc565049"
 
-  url "https://github.com/yg1112/mint-releases/releases/download/v#{version}/Mint-#{version}-macOS.dmg",
-      verified: "github.com/yg1112/mint-releases/"
+  url "https://github.com/dzg-studio/mint-releases/releases/download/v#{version}/Mint-#{version}-macOS.dmg",
+      verified: "github.com/dzg-studio/mint-releases/"
   name "Mint"
   desc "On-device cleanup and file organizer"
   homepage "https://mint.dzgapp.com/"
