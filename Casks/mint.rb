@@ -1,6 +1,6 @@
 cask "mint" do
-  version "1.0.10"
-  sha256 "0a9a7104a5502244b65b1557117c95bbe9916a96edf966623ba315600ec23861"
+  version "1.0.11"
+  sha256 "87cf7816cfeca82c860d1570779cfad76973ffd373a50f33fb887c9378a4126d"
 
   url "https://github.com/dzg-studio/mint-releases/releases/download/v#{version}/Mint-#{version}-macOS.dmg",
       verified: "github.com/dzg-studio/mint-releases/"
