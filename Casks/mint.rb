@@ -1,15 +1,14 @@
 cask "mint" do
-  version "1.0.25"
-  sha256 "3d34e5262bc03eebdfcfd17c9c0e1297c70fdf5cc1d316dd3fa4779dca0ffdbb"
+  version "1.0.83"
+  sha256 "b38c6027a1c9ae1a8f78c977ce36d918b1ad2a9e1e28731baade1dd05d646abb"
 
-  url "https://github.com/dzg-studio/mint-releases/releases/download/v#{version}/Mint-#{version}-macOS.dmg",
-      verified: "github.com/dzg-studio/mint-releases/"
+  url "https://github.com/dzg-studio/mint-releases/releases/download/v#{version}/Mint-#{version}-macOS.dmg"
   name "Mint"
   desc "On-device cleanup and file organizer"
-  homepage "https://mint.dzgapp.com/"
+  homepage "https://mintstorage.app/"
 
   livecheck do
-    url "https://mint.dzgapp.com/appcast.xml"
+    url "https://mint.dzgapp.com/appcast-paid.xml"
     regex(%r{<sparkle:shortVersionString>(\d+(?:\.\d+)+)</sparkle:shortVersionString>}i)
   end
 

@@ -14,8 +14,7 @@ The cask installs `Mint.app` and links the bundled read-only/MCP-capable command
 
 Mint requires macOS 14 Sonoma or later. The app is signed with a Developer ID certificate, notarized by Apple, and updates through a signed Sparkle feed.
 
-- Website: [mint.dzgapp.com](https://mint.dzgapp.com/?utm_source=GitHub&utm_medium=referral&utm_campaign=homebrew_readme)
-- Documentation: [mint.dzgapp.com/docs](https://mint.dzgapp.com/docs/?utm_source=GitHub&utm_medium=referral&utm_campaign=homebrew_readme)
+- Website: [mintstorage.app](https://mintstorage.app/?utm_source=GitHub&utm_medium=referral&utm_campaign=homebrew_readme)
 - Releases: https://github.com/dzg-studio/mint-releases/releases
 
 ## Updating the cask
